@@ -20,7 +20,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\ROY\RiderProjects\MusicWord\background.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource=".\imagesFolder\BackGroundMatzeget.jpeg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Label Content="MusicWord" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Snow" Grid.Column="1" Grid.ColumnSpan="2"></Label>
         <Label Content="Please select category:" FontSize="38" HorizontalAlignment="Center" Foreground="Snow" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Label>

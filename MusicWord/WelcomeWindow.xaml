@@ -20,7 +20,7 @@
             <ColumnDefinition Width="99*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\ROY\RiderProjects\MusicWord\background.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource=".\imagesFolder\BackGroundMatzeget.jpeg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Label Content="Welcome To MusicWord!"  FontSize="40" HorizontalAlignment="Center" Foreground="Snow" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="2" Width="448"></Label>
         <Label Content="Please Enter Your Name:" FontSize="30" VerticalAlignment="Center" Foreground="Snow" Grid.Row="1" Grid.ColumnSpan="4" Height="50"></Label>

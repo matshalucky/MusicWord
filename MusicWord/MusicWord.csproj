@@ -115,5 +115,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagesFolder\BackGroundMatzeget.jpeg" />
+    <Resource Include="imagesFolder\helpWheel.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

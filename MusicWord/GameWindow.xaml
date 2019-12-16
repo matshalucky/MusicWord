@@ -20,14 +20,14 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\ROY\RiderProjects\MusicWord\background.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource=".\imagesFolder\BackGroundMatzeget.jpeg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Label Content="MusicWord" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Snow" Grid.Column="1" Grid.ColumnSpan="2"></Label>
         <Label Content="Fill the letters:" FontSize="38" HorizontalAlignment="Center" Foreground="Snow" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Label>
         <Label Content="" Background="White" FontSize="38" HorizontalAlignment="Center" Foreground="Snow" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="50" VerticalAlignment="Top" Width="300"></Label>
         <Label Content="Time left:"  FontSize="25" Foreground="Snow"></Label>
         <Label Content="Strikes left:" FontWeight="Bold"  FontSize="25" Grid.Row="3" VerticalAlignment="Bottom" Foreground="Snow"></Label>
-        <Image Width="50" Source="C:\Users\ROY\Desktop\phtots\lifesaver.png" Grid.Column="3" Grid.Row="3">
+        <Image Width="50" Source=".\imagesFolder\helpWheel.jpeg" Grid.Column="3" Grid.Row="3">
         </Image>
         
     </Grid>
