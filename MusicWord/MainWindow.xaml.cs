@@ -23,7 +23,7 @@ namespace MusicWord
         public MainWindow()
         {
             InitializeComponent();
-            var WelcomeWin = new SelectCategoryWindow();
+            var WelcomeWin = new WelcomeWindow();
             WelcomeWin.Show();
         }
     }

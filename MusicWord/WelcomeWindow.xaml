@@ -29,7 +29,6 @@
             <StackPanel VerticalAlignment="Center">
                 <TextBlock FontSize="40" TextAlignment="Center" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Start</TextBlock>
             </StackPanel>
-            
         </Button>
     </Grid>
 </Window>

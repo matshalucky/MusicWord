@@ -18,6 +18,6 @@
         </Grid.Background>
         <Label Content="MusicWord" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Snow" Grid.Column="1" Grid.ColumnSpan="2"></Label>
         <Label Content="You Win!" FontSize="80" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Gold"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Label>
-        <Label Content="Your score is X" FontSize="60" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Gold"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+        <Label Content="Your score is   " FontSize="60" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Gold"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Label>
     </Grid>
 </Window>
