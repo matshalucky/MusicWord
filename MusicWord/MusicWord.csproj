@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=8.0.17.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -65,14 +65,14 @@
     <Compile Include="LoserWindow.xaml.cs">
       <DependentUpon>LoserWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\CommandHandler.cs" />
     <Compile Include="SelectCategoryWindow.xaml.cs">
       <DependentUpon>SelectCategoryWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\BaseNotify.cs" />
+    <Compile Include="ViewModels\WelcomeWindowViewModel.cs" />
     <Compile Include="WelcomeWindow.xaml.cs">
       <DependentUpon>WelcomeWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinnerWindow.xaml.cs">
       <DependentUpon>WinnerWindow.xaml</DependentUpon>
@@ -106,10 +106,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WelcomeWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,5 +144,6 @@
     <Resource Include="imagesFolder\BackGroundMatzeget.jpeg" />
     <Resource Include="imagesFolder\helpWheel.jpeg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

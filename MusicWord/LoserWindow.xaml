@@ -11,13 +11,22 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         
         <Grid.Background>
             <ImageBrush ImageSource=".\imagesFolder\BackGroundMatzeget.jpeg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Label Content="MusicWord" FontSize="40" FontWeight="Bold" HorizontalAlignment="Center" Foreground="Snow" Grid.Column="1" Grid.ColumnSpan="2"></Label>
         <Label Content="You Lose!" FontSize="80" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkRed"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"></Label>
-        <Label Content="your score is X" FontSize="60" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkRed"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+        <Label Content="your score is " FontSize="60" FontWeight="Bold" HorizontalAlignment="Center" Foreground="DarkRed"  Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+        <Label Content="" Background="White" FontSize="38" HorizontalAlignment="Left" Foreground="Snow" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Height="50" VerticalAlignment="Center" Width="100"></Label>
+
     </Grid>
 </Window>

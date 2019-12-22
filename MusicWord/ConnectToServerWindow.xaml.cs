@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -12,8 +13,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using MySql;
-using MySql.Data.MySqlClient;
 
 namespace MusicWord
 {
@@ -26,10 +25,10 @@ namespace MusicWord
         {
             InitializeComponent();
 
-            string connectionString = "SERVER = localhost; DATABASE=playlistGame; UID= root; PASSWORD=";
+            string connectionString = "SERVER = localhost; DATABASE=sakila; UID= root; PASSWORD=035342770Rl";
 
             MySqlConnection connection = new MySqlConnection(connectionString);
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM playlistGame.artists", connection);
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM sakila.actor", connection);
             connection.Open();
 
             DataTable dt = new DataTable();

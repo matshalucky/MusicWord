@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MusicWord.ViewModels; 
 
 namespace MusicWord
 {
@@ -22,6 +23,7 @@ namespace MusicWord
         public WelcomeWindow()
         {
             InitializeComponent();
+            DataContext = new WelcomeWindowViewModel(this);
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
