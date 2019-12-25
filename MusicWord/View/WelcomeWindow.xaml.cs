@@ -11,17 +11,24 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
-namespace MusicWord
+using MusicWord.ViewModel;
+using MusicWord.View;
+namespace MusicWord.View
 {
     /// <summary>
-    /// Interaction logic for LoserWindow.xaml
+    /// Interaction logic for WelcomeWindow.xaml
     /// </summary>
-    public partial class LoserWindow : Window
+    public partial class WelcomeWindow : Window
     {
-        public LoserWindow()
+        public WelcomeWindow()
         {
             InitializeComponent();
+            DataContext = new WelcomeWindowViewModel(this);
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

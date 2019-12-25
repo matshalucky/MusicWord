@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicWord.ViewModels
+namespace MusicWord.ViewModel
 {
     public abstract class BaseNotify : INotifyPropertyChanged
     {

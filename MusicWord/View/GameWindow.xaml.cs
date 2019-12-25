@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MusicWord.View;
-
+using MusicWord.ViewModel;
 namespace MusicWord.View
 {
     /// <summary>
@@ -23,6 +23,12 @@ namespace MusicWord.View
         public GameWindow()
         {
             InitializeComponent();
+           // TextBox textBoxNewInput = new TextBox();
+          //  textBoxNewInput.Text = "Ron";
+            Label labelInput = new Label();
+            labelInput.Content = "rrrrrrr";
+            gameGrid.Children.Add(labelInput);
+           // gameGrid.Children.Add(textBoxNewInput);
         }
     }
 }

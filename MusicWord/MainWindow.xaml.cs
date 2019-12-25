@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicWord.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,9 +23,9 @@ namespace MusicWord
     {
         public MainWindow()
         {
-            InitializeComponent();
-            var WelcomeWin = new ConnectToServerWindow();
-            WelcomeWin.Show();
+           InitializeComponent();
+           
+
         }
     }
 }

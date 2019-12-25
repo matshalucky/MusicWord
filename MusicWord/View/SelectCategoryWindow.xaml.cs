@@ -11,15 +11,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
-namespace MusicWord
+using MusicWord.View;
+namespace MusicWord.View
 {
     /// <summary>
-    /// Interaction logic for WinnerWindow.xaml
+    /// Interaction logic for SelectCategoryWindow.xaml
     /// </summary>
-    public partial class WinnerWindow : Window
+    public partial class SelectCategoryWindow : Window
     {
-        public WinnerWindow()
+        public SelectCategoryWindow()
         {
             InitializeComponent();
         }

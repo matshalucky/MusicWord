@@ -56,36 +56,36 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="View\ConnectToServerWindow.xaml.cs">
-      <DependentUpon>ConnectToServerWindow.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\TableEntryClass.cs" />
+    <Compile Include="ViewModel\GameWindowViewModel.cs" />
+    <Compile Include="ViewModel\SelectCategoryWindowViewModel.cs" />
     <Compile Include="View\GameWindow.xaml.cs">
       <DependentUpon>GameWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LoserWindow.xaml.cs">
+    <Compile Include="View\LoserWindow.xaml.cs">
       <DependentUpon>LoserWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\CommandHandler.cs" />
-    <Compile Include="SelectCategoryWindow.xaml.cs">
+    <Compile Include="Model\CommandHandler.cs" />
+    <Compile Include="View\ScoreTableWindow.xaml.cs">
+      <DependentUpon>ScoreTableWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SelectCategoryWindow.xaml.cs">
       <DependentUpon>SelectCategoryWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\BaseNotify.cs" />
-    <Compile Include="ViewModels\WelcomeWindowViewModel.cs" />
-    <Compile Include="WelcomeWindow.xaml.cs">
+    <Compile Include="ViewModel\BaseNotify.cs" />
+    <Compile Include="ViewModel\WelcomeWindowViewModel.cs" />
+    <Compile Include="View\WelcomeWindow.xaml.cs">
       <DependentUpon>WelcomeWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WinnerWindow.xaml.cs">
+    <Compile Include="View\WinnerWindow.xaml.cs">
       <DependentUpon>WinnerWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="View\ConnectToServerWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="View\GameWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LoserWindow.xaml">
+    <Page Include="View\LoserWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -101,15 +101,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="SelectCategoryWindow.xaml">
+    <Page Include="View\ScoreTableWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WelcomeWindow.xaml">
+    <Page Include="View\SelectCategoryWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WinnerWindow.xaml">
+    <Page Include="View\WelcomeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WinnerWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

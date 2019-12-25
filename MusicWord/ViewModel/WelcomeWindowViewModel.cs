@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using MusicWord.Models;
+using MusicWord.Model;
+using MusicWord.View;
 using MySql.Data.MySqlClient;
 
-namespace MusicWord.ViewModels
+namespace MusicWord.ViewModel
 {
     class WelcomeWindowViewModel : BaseNotify
     {
@@ -48,12 +49,17 @@ namespace MusicWord.ViewModels
         // pressed on start 
         private void OnStart()
         {
+            //create Singlton player
+            Player newPlayer = Player.Instance;
+            newPlayer.Name = playerName;
+
             string connectionString = "SERVER = localhost; DATABASE=players; UID= root; PASSWORD=035342770Rl";
             MySqlConnection connection = new MySqlConnection(connectionString);
             MySqlCommand palyersTableCmd = new MySqlCommand("SELECT * FROM players", connection);
-
+            
             connection.Open();
             MySqlCommand insertCmd = new MySqlCommand($"INSERT INTO players(Name,Category,Score) VALUES('{playerName}','',0);", connection);
+
             insertCmd.ExecuteNonQuery();
             connection.Close();
             
