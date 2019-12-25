@@ -11,8 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using MusicWord.View;
 
-namespace MusicWord
+namespace MusicWord.View
 {
     /// <summary>
     /// Interaction logic for GameWindow.xaml

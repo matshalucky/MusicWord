@@ -56,10 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ConnectToServerWindow.xaml.cs">
+    <Compile Include="View\ConnectToServerWindow.xaml.cs">
       <DependentUpon>ConnectToServerWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GameWindow.xaml.cs">
+    <Compile Include="View\GameWindow.xaml.cs">
       <DependentUpon>GameWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="LoserWindow.xaml.cs">
@@ -77,11 +77,11 @@
     <Compile Include="WinnerWindow.xaml.cs">
       <DependentUpon>WinnerWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="ConnectToServerWindow.xaml">
+    <Page Include="View\ConnectToServerWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GameWindow.xaml">
+    <Page Include="View\GameWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
